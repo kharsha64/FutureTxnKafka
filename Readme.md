@@ -18,7 +18,8 @@ There are 2 API's in the consumer app -
 
 * Summary Report API
 
-This API generated a summary report of all the transactions in the H2 database
+This API generated a summary report of all the transactions in the H2 database.
+The output.json is a sample output of this API.
 
 ```bash
 GET http://localhost:8081//v1/api/future-txn-event-consumer/summary-details
