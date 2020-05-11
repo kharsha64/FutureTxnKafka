@@ -1,0 +1,5 @@
+com/abn/futuretxn/TxnEventConsumerApplication.class
+com/abn/futuretxn/domain/TxnRecord.class
+com/abn/futuretxn/consumer/TxnEventConsumer.class
+com/abn/futuretxn/domain/TxnRecord$TxnRecordBuilder.class
+com/abn/futuretxn/config/EventConsumerConfig.class

@@ -1,0 +1,47 @@
+[
+    {
+        "productInfo": {
+            "exchangeCode": "SGX",
+            "productGroupCode": "FU",
+            "symbol": "NK",
+            "expDate": "20100910"
+        },
+        "clientInfo": {
+            "clientType": "CL",
+            "clientNumber": "4321",
+            "accountNumber": "0002",
+            "subAccountNumber": "0001"
+        },
+        "netTotal": 1
+    },
+    {
+        "productInfo": {
+            "exchangeCode": "SGX",
+            "productGroupCode": "FU",
+            "symbol": "NK",
+            "expDate": "20100910"
+        },
+        "clientInfo": {
+            "clientType": "CL",
+            "clientNumber": "4321",
+            "accountNumber": "0002",
+            "subAccountNumber": "0001"
+        },
+        "netTotal": 1
+    },
+    {
+        "productInfo": {
+            "exchangeCode": "SGX",
+            "productGroupCode": "FU",
+            "symbol": "NK",
+            "expDate": "20100910"
+        },
+        "clientInfo": {
+            "clientType": "CL",
+            "clientNumber": "4321",
+            "accountNumber": "0002",
+            "subAccountNumber": "0001"
+        },
+        "netTotal": 1
+    }
+]

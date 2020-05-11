@@ -1,0 +1,92 @@
+{
+	"info": {
+		"_postman_id": "eb01ecd4-48d7-43c1-b5d5-462ba586bfcc",
+		"name": "KafkaAPITest",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetProductNetAmount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081//v1/api/future-txn-event-consumer/product-transaction-total?exchangeCode=SGX&productGroupCode=FU&symbol=NK",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"",
+						"v1",
+						"api",
+						"future-txn-event-consumer",
+						"product-transaction-total"
+					],
+					"query": [
+						{
+							"key": "exchangeCode",
+							"value": "SGX"
+						},
+						{
+							"key": "productGroupCode",
+							"value": "FU"
+						},
+						{
+							"key": "symbol",
+							"value": "NK"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FutureTxnProducerAPI",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080//v1/api/future-txn-event-producer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"",
+						"v1",
+						"api",
+						"future-txn-event-producer"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Summary Report",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8081//v1/api/future-txn-event-consumer/summary-details",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"",
+						"v1",
+						"api",
+						"future-txn-event-consumer",
+						"summary-details"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
